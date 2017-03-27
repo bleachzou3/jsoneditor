@@ -1,0 +1,2341 @@
+{
+  "AudioEngineSettings": {
+    "IOS": {
+      "Specific": [
+        {
+          "Devices": [
+            "iPad2-1",
+            "iPad2-2",
+            "iPad2-3",
+            "iPad2-4",
+            "iPad2-5",
+            "iPad2-6",
+            "iPad2-7",
+            "iPad3-4",
+            "iPad3-5",
+            "iPad3-6",
+            "iPad4-1",
+            "iPad4-2",
+            "iPad4-3",
+            "iPad4-4",
+            "iPad4-5",
+            "iPad4-6",
+            "iPad4-7",
+            "iPad4-8",
+            "iPad4-9",
+            "iPad5-3",
+            "iPad5-4"
+          ],
+          "Settings": {
+            "VPIO": {
+              "AECType": 1,
+              "NSType": 0,
+              "CapSampleRate": 16000,
+              "PlaySampleRate": 16000,
+              "DagcTypeSettings": {
+                "speakerAgcType": 4,
+                "micAgcType": 4
+              },
+              "WMEAGCSettings": {
+                "adaptive": 0,
+                "max-gain": 5,
+                "low-value": 400,
+                "mid-value": 5000,
+                "max-value": 15000
+              },
+              "newAGCsettingsForMic": {
+                "init_db": 26,
+                "target_db": 26,
+                "thrshold_db": 45,
+                "dagc_mode": 1,
+                "low_volume_env": 400,
+                "limiter_thr_db": 0,
+                "noise_gate_factor": 0,
+                "echo_sup_thr": 1,
+                "dagc_max_gain": 5,
+                "fixed_start": 0,
+                "dagc_factor": 3
+              },
+              "newAGCsettingsForSpeaker": {
+                "init_db": 26,
+                "target_db": 26,
+                "thrshold_db": 45,
+                "dagc_mode": 3,
+                "low_volume_env": 0,
+                "limiter_thr_db": 0,
+                "noise_gate_factor": 0,
+                "echo_sup_thr": 0,
+                "dagc_factor": 3
+              },
+              "AAECPARAMETERS": {
+                "nlp_AES_mode": 3,
+                "nr_gain_scaling": 0.5,
+                "cng_gain": 1
+              },
+              "GIPSAECNLPPARAMETERS": {
+                "energy_dev_tol": 400,
+                "resolution_supgain": 8,
+                "supgain_default": 256,
+                "supgain_err_para_a": 3072,
+                "supgain_err_para_b": 1536,
+                "supgain_err_para_c": 0,
+                "supgain_err_para_d": 256,
+                "supgain_epc_dt": 200
+              }
+            },
+            "REMOTEIO": {
+              "AECType": 3,
+              "NSType": 0,
+              "InputGain": 16,
+              "OutputGain": 4,
+              "CaptureMode": 11,
+              "PlaybackMode": 0,
+              "CapSampleRate": 48000,
+              "PlaySampleRate": 48000,
+              "TCAECParameters": {
+                "maxlag": 0,
+                "nlpSpeed": 0.25,
+                "lslimiterThreshold": 0.5
+              },
+              "DagcTypeSettings": {
+                "speakerAgcType": 3,
+                "micAgcType": 3
+              },
+              "WMEAGCSettings": {
+                "adaptive": 0,
+                "max-gain": 5,
+                "low-value": 400,
+                "mid-value": 5000,
+                "max-value": 15000
+              },
+              "newAGCsettingsForMic": {
+                "init_db": 26,
+                "target_db": 26,
+                "thrshold_db": 45,
+                "dagc_mode": 1,
+                "low_volume_env": 400,
+                "limiter_thr_db": 0,
+                "noise_gate_factor": 0,
+                "echo_sup_thr": 1,
+                "dagc_max_gain": 5,
+                "fixed_start": 0,
+                "dagc_factor": 3
+              },
+              "newAGCsettingsForSpeaker": {
+                "init_db": 26,
+                "target_db": 26,
+                "thrshold_db": 45,
+                "dagc_mode": 3,
+                "low_volume_env": 0,
+                "limiter_thr_db": 0,
+                "noise_gate_factor": 0,
+                "echo_sup_thr": 0,
+                "dagc_factor": 3
+              },
+              "AAECPARAMETERS": {
+                "nlp_AES_mode": 3,
+                "nr_gain_scaling": 0.5,
+                "cng_gain": 1
+              },
+              "GIPSAECNLPPARAMETERS": {
+                "energy_dev_tol": 400,
+                "resolution_supgain": 8,
+                "supgain_default": 256,
+                "supgain_err_para_a": 3072,
+                "supgain_err_para_b": 1536,
+                "supgain_err_para_c": 0,
+                "supgain_err_para_d": 256,
+                "supgain_epc_dt": 200
+              }
+            }
+          }
+        }
+      ],
+      "Default": {
+        "VPIO": {
+          "AECType": 1,
+          "NSType": 0,
+          "CapSampleRate": 16000,
+          "PlaySampleRate": 16000,
+          "DagcTypeSettings": {
+            "speakerAgcType": 4,
+            "micAgcType": 4
+          },
+          "WMEAGCSettings": {
+            "adaptive": 0,
+            "max-gain": 5,
+            "low-value": 400,
+            "mid-value": 5000,
+            "max-value": 15000
+          },
+          "newAGCsettingsForMic": {
+            "init_db": 26,
+            "target_db": 26,
+            "thrshold_db": 45,
+            "dagc_mode": 1,
+            "low_volume_env": 400,
+            "limiter_thr_db": 6,
+            "noise_gate_factor": 0,
+            "echo_sup_thr": 1,
+            "dagc_max_gain": 5,
+            "fixed_start": 0,
+            "dagc_factor": 3
+          },
+          "newAGCsettingsForSpeaker": {
+            "init_db": 26,
+            "target_db": 30,
+            "thrshold_db": 45,
+            "dagc_mode": 1,
+            "low_volume_env": 0,
+            "limiter_thr_db": 6,
+            "noise_gate_factor": 0,
+            "echo_sup_thr": 0,
+            "dagc_factor": 3
+          },
+          "AAECPARAMETERS": {
+            "nlp_AES_mode": 3,
+            "nr_gain_scaling": 0.5,
+            "cng_gain": 1
+          },
+          "GIPSAECNLPPARAMETERS": {
+            "energy_dev_tol": 400,
+            "resolution_supgain": 8,
+            "supgain_default": 256,
+            "supgain_err_para_a": 3072,
+            "supgain_err_para_b": 1536,
+            "supgain_err_para_c": 0,
+            "supgain_err_para_d": 256,
+            "supgain_epc_dt": 200
+          }
+        },
+        "REMOTEIO": {
+          "AECType": 3,
+          "NSType": 0,
+          "InputGain": 8,
+          "OutputGain": 8,
+          "CaptureMode": 11,
+          "PlaybackMode": 0,
+          "CapSampleRate": 48000,
+          "PlaySampleRate": 48000,
+          "TCAECParameters": {
+            "maxlag": 0,
+            "nlpSpeed": 0.25,
+            "lslimiterThreshold": 0.5
+          },
+          "DagcTypeSettings": {
+            "speakerAgcType": 3,
+            "micAgcType": 3
+          },
+          "WMEAGCSettings": {
+            "adaptive": 0,
+            "max-gain": 10,
+            "low-value": 50,
+            "mid-value": 5000,
+            "max-value": 15000
+          },
+          "newAGCsettingsForMic": {
+            "init_db": 26,
+            "target_db": 26,
+            "thrshold_db": 55,
+            "dagc_mode": 1,
+            "low_volume_env": 50,
+            "limiter_thr_db": 6,
+            "noise_gate_factor": 0,
+            "echo_sup_thr": 1,
+            "dagc_max_gain": 5,
+            "fixed_start": 0,
+            "dagc_factor": 3
+          },
+          "newAGCsettingsForSpeaker": {
+            "init_db": 26,
+            "target_db": 20,
+            "thrshold_db": 55,
+            "dagc_mode": 1,
+            "low_volume_env": 0,
+            "limiter_thr_db": 6,
+            "noise_gate_factor": 0,
+            "echo_sup_thr": 0,
+            "dagc_factor": 3
+          },
+          "AAECPARAMETERS": {
+            "nlp_AES_mode": 3,
+            "nr_gain_scaling": 0.5,
+            "cng_gain": 1
+          },
+          "GIPSAECNLPPARAMETERS": {
+            "energy_dev_tol": 400,
+            "resolution_supgain": 8,
+            "supgain_default": 256,
+            "supgain_err_para_a": 3072,
+            "supgain_err_para_b": 1536,
+            "supgain_err_para_c": 0,
+            "supgain_err_para_d": 256,
+            "supgain_epc_dt": 200
+          }
+        }
+      }
+    },
+    "MACOS": {
+      "Specific": [],
+      "Default": {
+        "AECType": 4,
+        "NSType": 2,
+        "CaptureMode": 23,
+        "PlaybackMode": 10,
+        "CapSampleRate": 48000,
+        "PlaySampleRate": 16000,
+        "DagcTypeSettings": {
+          "speakerAgcType": 4,
+          "micAgcType": 4
+        },
+        "WMEAGCSettings": {
+          "adaptive": 0,
+          "max-gain": 5,
+          "low-value": 400,
+          "mid-value": 5000,
+          "max-value": 15000
+        },
+        "newAGCsettingsForMic": {
+          "init_db": 26,
+          "target_db": 26,
+          "thrshold_db": 45,
+          "dagc_mode": 1,
+          "low_volume_env": 0,
+          "limiter_thr_db": 0,
+          "noise_gate_factor": 0,
+          "echo_sup_thr": 1,
+          "dagc_max_gain": 5,
+          "fixed_start": 1,
+          "dagc_factor": 3
+        },
+        "newAGCsettingsForSpeaker": {
+          "init_db": 26,
+          "target_db": 20,
+          "thrshold_db": 45,
+          "dagc_mode": 3,
+          "low_volume_env": 0,
+          "limiter_thr_db": 0,
+          "noise_gate_factor": 0,
+          "echo_sup_thr": 0,
+          "dagc_factor": 3
+        },
+        "AAECPARAMETERS": {
+          "nlp_AES_mode": 3,
+          "nr_gain_scaling": 0.5,
+          "cng_gain": 1
+        },
+        "GIPSAECNLPPARAMETERS": {
+          "energy_dev_tol": 400,
+          "resolution_supgain": 8,
+          "supgain_default": 256,
+          "supgain_err_para_a": 3072,
+          "supgain_err_para_b": 1536,
+          "supgain_err_para_c": 0,
+          "supgain_err_para_d": 256,
+          "supgain_epc_dt": 200
+        },
+        "WinMacAECNLP": {
+          "ATANOFFSET": 0,
+          "ATANSCALE": 40,
+          "MAXTWIST": 4,
+          "MINTWIST": 4,
+          "WINMACNLPTYPE": 0
+        }
+      },
+      "DaemonSetting": {
+        "AudioCaptureRestartInterval": 1
+      }
+    },
+    "Windows": {
+      "Specific": [
+        {
+          "Devices": [
+            "20BG",
+            "20BH"
+          ],
+          "Settings": {
+            "AECType": 5,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 15000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 28,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 50,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 8,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForMicRawData": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeakerRawData": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 3,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "WinMacAECNLP": {
+              "ATANOFFSET": 0,
+              "ATANSCALE": 40,
+              "MAXTWIST": 4,
+              "MINTWIST": 4,
+              "WINMACNLPTYPE": 0
+            },
+            "WMEDMOSettings": {
+              "DMO-VAD": 0,
+              "DMO-MGB": 0,
+              "DMO-AES": 0,
+              "DMO-CENTERCLIP": 0,
+              "DMO-NOISEFILL": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "20B6",
+            "20B7"
+          ],
+          "Settings": {
+            "AECType": 5,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 15000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 38,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 150,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 8,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForMicRawData": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeakerRawData": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 3,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "WinMacAECNLP": {
+              "ATANOFFSET": 0,
+              "ATANSCALE": 40,
+              "MAXTWIST": 4,
+              "MINTWIST": 4,
+              "WINMACNLPTYPE": 0
+            },
+            "WMEDMOSettings": {
+              "DMO-VAD": 0,
+              "DMO-MGB": 0,
+              "DMO-AES": 0,
+              "DMO-CENTERCLIP": 0,
+              "DMO-NOISEFILL": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "20BU",
+            "20BV"
+          ],
+          "Settings": {
+            "AECType": 5,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 15000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 55,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 50,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForMicRawData": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeakerRawData": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 3,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "WinMacAECNLP": {
+              "ATANOFFSET": 0,
+              "ATANSCALE": 40,
+              "MAXTWIST": 4,
+              "MINTWIST": 4,
+              "WINMACNLPTYPE": 0
+            },
+            "WMEDMOSettings": {
+              "DMO-VAD": 0,
+              "DMO-MGB": 0,
+              "DMO-AES": 0,
+              "DMO-CENTERCLIP": 0,
+              "DMO-NOISEFILL": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "20FB",
+            "20FC",
+            "20BS",
+            "20BT",
+            "20A7",
+            "20A8",
+            "3443",
+            "3444",
+            "3446",
+            "3448",
+            "3460",
+            "3462",
+            "2463",
+            "1286",
+            "1291",
+            "1292",
+            "1293",
+            "1294"
+          ],
+          "Settings": {
+            "AECType": 5,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 15000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 42,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 100,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 350,
+              "limiter_thr_db": 8,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForMicRawData": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeakerRawData": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 3,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "WinMacAECNLP": {
+              "ATANOFFSET": 0,
+              "ATANSCALE": 40,
+              "MAXTWIST": 4,
+              "MINTWIST": 4,
+              "WINMACNLPTYPE": 0
+            },
+            "WMEDMOSettings": {
+              "DMO-VAD": 0,
+              "DMO-MGB": 0,
+              "DMO-AES": 0,
+              "DMO-CENTERCLIP": 0,
+              "DMO-NOISEFILL": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "2436",
+            "2438",
+            "2439",
+            "2441",
+            "2447",
+            "2449",
+            "2463"
+          ],
+          "Settings": {
+            "AECType": 5,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "WbxAudioRawDataDigitalGain": 6,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 15000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 32,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 150,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 350,
+              "limiter_thr_db": 8,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForMicRawData": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeakerRawData": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 3,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "WinMacAECNLP": {
+              "ATANOFFSET": 0,
+              "ATANSCALE": 40,
+              "MAXTWIST": 4,
+              "MINTWIST": 4,
+              "WINMACNLPTYPE": 0
+            },
+            "WMEDMOSettings": {
+              "DMO-VAD": 0,
+              "DMO-MGB": 0,
+              "DMO-AES": 0,
+              "DMO-CENTERCLIP": 0,
+              "DMO-NOISEFILL": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "20EF",
+            "20EG"
+          ],
+          "Settings": {
+            "AECType": 5,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 15000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 150,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 350,
+              "limiter_thr_db": 8,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForMicRawData": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 65,
+              "dagc_mode": 1,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeakerRawData": {
+              "init_db": 26,
+              "target_db": 20,
+              "thrshold_db": 45,
+              "dagc_mode": 3,
+              "low_volume_env": 0,
+              "limiter_thr_db": 0,
+              "noise_gate_factor": 0,
+              "echo_sup_thr": 1,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "WinMacAECNLP": {
+              "ATANOFFSET": 0,
+              "ATANSCALE": 40,
+              "MAXTWIST": 4,
+              "MINTWIST": 4,
+              "WINMACNLPTYPE": 0
+            },
+            "WMEDMOSettings": {
+              "DMO-VAD": 0,
+              "DMO-MGB": 0,
+              "DMO-AES": 0,
+              "DMO-CENTERCLIP": 0,
+              "DMO-NOISEFILL": 0
+            }
+          }
+        }
+      ],
+      "Default": {
+        "AECType": 5,
+        "NSType": 2,
+        "CaptureMode": 23,
+        "PlaybackMode": 10,
+        "CapSampleRate": 48000,
+        "DagcTypeSettings": {
+          "speakerAgcType": 4,
+          "micAgcType": 4
+        },
+        "WMEAGCSettings": {
+          "adaptive": 0,
+          "max-gain": 5,
+          "low-value": 400,
+          "mid-value": 5000,
+          "max-value": 15000
+        },
+        "newAGCsettingsForMic": {
+          "init_db": 32,
+          "target_db": 26,
+          "thrshold_db": 65,
+          "dagc_mode": 1,
+          "low_volume_env": 50,
+          "limiter_thr_db": 6,
+          "noise_gate_factor": 30,
+          "echo_sup_thr": 1,
+          "dagc_factor": 3
+        },
+        "newAGCsettingsForSpeaker": {
+          "init_db": 26,
+          "target_db": 20,
+          "thrshold_db": 45,
+          "dagc_mode": 1,
+          "low_volume_env": 300,
+          "limiter_thr_db": 8,
+          "noise_gate_factor": 0,
+          "echo_sup_thr": 1,
+          "dagc_factor": 3
+        },
+        "newAGCsettingsForMicRawData": {
+          "init_db": 26,
+          "target_db": 26,
+          "thrshold_db": 65,
+          "dagc_mode": 1,
+          "low_volume_env": 0,
+          "limiter_thr_db": 0,
+          "noise_gate_factor": 0,
+          "echo_sup_thr": 1,
+          "dagc_factor": 3
+        },
+        "newAGCsettingsForSpeakerRawData": {
+          "init_db": 26,
+          "target_db": 20,
+          "thrshold_db": 45,
+          "dagc_mode": 3,
+          "low_volume_env": 0,
+          "limiter_thr_db": 0,
+          "noise_gate_factor": 0,
+          "echo_sup_thr": 1,
+          "dagc_factor": 3
+        },
+        "AAECPARAMETERS": {
+          "nlp_AES_mode": 3,
+          "nr_gain_scaling": 0.5,
+          "cng_gain": 1
+        },
+        "GIPSAECNLPPARAMETERS": {
+          "energy_dev_tol": 400,
+          "resolution_supgain": 8,
+          "supgain_default": 256,
+          "supgain_err_para_a": 3072,
+          "supgain_err_para_b": 1536,
+          "supgain_err_para_c": 0,
+          "supgain_err_para_d": 256,
+          "supgain_epc_dt": 200
+        },
+        "WinMacAECNLP": {
+          "ATANOFFSET": 0,
+          "ATANSCALE": 40,
+          "MAXTWIST": 4,
+          "MINTWIST": 4,
+          "WINMACNLPTYPE": 0
+        },
+        "WMEDMOSettings": {
+          "DMO-VAD": 0,
+          "DMO-MGB": 0,
+          "DMO-AES": 0,
+          "DMO-CENTERCLIP": 0,
+          "DMO-NOISEFILL": 0
+        }
+      },
+      "DaemonSetting": {
+        "AudioCaptureRestartInterval": -1
+      }
+    },
+    "Android": {
+      "Specific": [
+        {
+          "Devices": [
+            "LG-D855",
+            "LG-D850",
+            "LGLS990"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 15,
+              "low-value": 100,
+              "mid-value": 1000,
+              "max-value": 30000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 100,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 0,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "XT1049",
+            "XT1052",
+            "XT1053",
+            "XT1058",
+            "XT1060"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 20,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 12,
+              "low-value": 200,
+              "mid-value": 3000,
+              "max-value": 30000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 200,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "HTC 601e"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 12,
+              "low-value": 100,
+              "mid-value": 3000,
+              "max-value": 30000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 100,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "HTC M8",
+            "831C",
+            "HTC One_M8",
+            "HTC6525LVW",
+            "HTC_0P6B"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 8,
+              "low-value": 750,
+              "mid-value": 2500,
+              "max-value": 10000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 18,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 750,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "SM-N900",
+            "SAMSUNG-SM-N900A",
+            "SC-02F",
+            "SCL22"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 8,
+              "low-value": 450,
+              "mid-value": 2500,
+              "max-value": 12000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 19,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 450,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 23,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "XT937C",
+            "XT939G",
+            "XT1002",
+            "XT1003",
+            "XT1008",
+            "XT1028",
+            "XT1031",
+            "XT1032",
+            "XT1033",
+            "XT1034",
+            "XT1039",
+            "XT1040",
+            "XT1042",
+            "XT1045",
+            "XT1063",
+            "XT1064",
+            "XT1068",
+            "XT1069",
+            "titan_niibr_ds",
+            "titan_retbr_dstv"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 4,
+              "low-value": 750,
+              "mid-value": 1000,
+              "max-value": 3000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 18,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 750,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "GT-I9082"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 0,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 1500,
+              "max-value": 5500
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 20,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 400,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "Nexus 6"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 22,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 25000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 400,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "Nexus 5"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 12,
+              "low-value": 200,
+              "mid-value": 2500,
+              "max-value": 10000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 25,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 16,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "Nexus 4"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 12,
+              "low-value": 180,
+              "mid-value": 3000,
+              "max-value": 30000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 180,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 23,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "GT-I93",
+            "SCH-I93",
+            "SCH-I535",
+            "SGH-T999",
+            "SAMSUNG-SGH-I747"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 10,
+              "low-value": 350,
+              "mid-value": 3000,
+              "max-value": 30000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 24,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 350,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 24,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "SC-04E",
+            "GT-I95",
+            "SCH-I959",
+            "SHV-E300",
+            "SAMSUNG-SGH-I337",
+            "SGH-I337",
+            "SGH-M919",
+            "SGH-R970",
+            "SCH-I545",
+            "SPH-L720",
+            "SM-S975",
+            "SGH-S970",
+            "SCH-I545",
+            "SHV-E330",
+            "GT-I9295",
+            "SAMSUNG-SGH-I537",
+            "SGH-I537",
+            "SHV-E470",
+            "GT-I919",
+            "SGH-I257",
+            "SHV-E370",
+            "SCH-I435",
+            "SPH-L520",
+            "SM-C105",
+            "SM-C105",
+            "SGH-M919"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 15,
+              "low-value": 50,
+              "mid-value": 1000,
+              "max-value": 25000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 50,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 27,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 14,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "SM-G900",
+            "SAMSUNG-SM-G900",
+            "SM-G906",
+            "SCL23",
+            "SAMSUNG-SM-G870",
+            "SM-G870",
+            "SM-G800"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 450,
+              "mid-value": 5000,
+              "max-value": 25000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 450,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 27,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 16,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25,
+              "delayEstimationMaxDecisionCount": 3
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "SM-G920F"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 20,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 450,
+              "mid-value": 5000,
+              "max-value": 25000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 100,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25,
+              "delayEstimationMaxDecisionCount": 3
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "SM-G925F"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 20,
+            "PlaybackMode": 10,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 450,
+              "mid-value": 5000,
+              "max-value": 25000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 100,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25,
+              "delayEstimationMaxDecisionCount": 3
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "SC-02E",
+            "GT-N7100",
+            "GT-N7102",
+            "GT-N7108",
+            "SCH-N719",
+            "GT-N7105",
+            "SAMSUNG-SGH-I317",
+            "SGH-I317M",
+            "GT-N7108D",
+            "SHV-E250",
+            "SPH-L900",
+            "SGH-T889",
+            "SCH-R950",
+            "SCH-I605"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 10,
+              "low-value": 450,
+              "mid-value": 3000,
+              "max-value": 10000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 450,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 30,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 23,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "TCAECParameters": {
+              "maxlag": 26,
+              "nlpSpeed": 0.25
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        },
+        {
+          "Devices": [
+            "Nexus 1",
+            "Nexus 2",
+            "Nexus 3",
+            "Nexus 7",
+            "Nexus 8",
+            "Nexus 9"
+          ],
+          "Settings": {
+            "AECType": 2,
+            "NSType": 2,
+            "CaptureMode": 23,
+            "PlaybackMode": 12,
+            "CapSampleRate": 48000,
+            "PlaySampleRate": 16000,
+            "DagcTypeSettings": {
+              "speakerAgcType": 4,
+              "micAgcType": 4
+            },
+            "WMEAGCSettings": {
+              "adaptive": 0,
+              "max-gain": 5,
+              "low-value": 400,
+              "mid-value": 5000,
+              "max-value": 25000
+            },
+            "newAGCsettingsForMic": {
+              "init_db": 22,
+              "target_db": 26,
+              "thrshold_db": 55,
+              "dagc_mode": 1,
+              "low_volume_env": 400,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 36,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "newAGCsettingsForSpeaker": {
+              "init_db": 26,
+              "target_db": 26,
+              "thrshold_db": 45,
+              "dagc_mode": 1,
+              "low_volume_env": 300,
+              "limiter_thr_db": 6,
+              "noise_gate_factor": 24,
+              "echo_sup_thr": 500,
+              "dagc_factor": 3
+            },
+            "AAECPARAMETERS": {
+              "nlp_AES_mode": 3,
+              "nr_gain_scaling": 0.5,
+              "cng_gain": 1
+            },
+            "GIPSAECNLPPARAMETERS": {
+              "energy_dev_tol": 400,
+              "resolution_supgain": 8,
+              "supgain_default": 256,
+              "supgain_err_para_a": 3072,
+              "supgain_err_para_b": 1536,
+              "supgain_err_para_c": 0,
+              "supgain_err_para_d": 256,
+              "supgain_epc_dt": 200
+            },
+            "AndroidCaptureSettings": {
+              "stereomode": 0,
+              "usingleftchannel": 0
+            }
+          }
+        }
+      ],
+      "Default": {
+        "AECType": 2,
+        "NSType": 2,
+        "CaptureMode": 23,
+        "PlaybackMode": 10,
+        "CapSampleRate": 48000,
+        "PlaySampleRate": 16000,
+        "DagcTypeSettings": {
+          "speakerAgcType": 4,
+          "micAgcType": 4
+        },
+        "WMEAGCSettings": {
+          "adaptive": 0,
+          "max-gain": 5,
+          "low-value": 400,
+          "mid-value": 5000,
+          "max-value": 25000
+        },
+        "newAGCsettingsForMic": {
+          "init_db": 22,
+          "target_db": 26,
+          "thrshold_db": 55,
+          "dagc_mode": 1,
+          "low_volume_env": 100,
+          "limiter_thr_db": 6,
+          "noise_gate_factor": 30,
+          "echo_sup_thr": 500,
+          "dagc_factor": 3
+        },
+        "newAGCsettingsForSpeaker": {
+          "init_db": 26,
+          "target_db": 26,
+          "thrshold_db": 45,
+          "dagc_mode": 1,
+          "low_volume_env": 300,
+          "limiter_thr_db": 6,
+          "noise_gate_factor": 24,
+          "echo_sup_thr": 500,
+          "dagc_factor": 3
+        },
+        "AAECPARAMETERS": {
+          "nlp_AES_mode": 3,
+          "nr_gain_scaling": 0.5,
+          "cng_gain": 1
+        },
+        "GIPSAECNLPPARAMETERS": {
+          "energy_dev_tol": 400,
+          "resolution_supgain": 8,
+          "supgain_default": 256,
+          "supgain_err_para_a": 3072,
+          "supgain_err_para_b": 1536,
+          "supgain_err_para_c": 0,
+          "supgain_err_para_d": 256,
+          "supgain_epc_dt": 200
+        },
+        "AndroidCaptureSettings": {
+          "stereomode": 0,
+          "usingleftchannel": 0
+        }
+      }
+    }
+  }
+}

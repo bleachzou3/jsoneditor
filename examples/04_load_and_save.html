@@ -37,8 +37,18 @@
 <div id="jsoneditor"></div>
 
 <script>
+    var options = {
+        mode: 'tree',
+        modes: ['code', 'form', 'text', 'tree', 'view'], // allowed modes
+        onError: function (err) {
+            alert(err.toString());
+        },
+        onModeChange: function (newMode, oldMode) {
+            console.log('Mode switched from', oldMode, 'to', newMode);
+        }
+    };
   // create the editor
-  var editor = new JSONEditor(document.getElementById('jsoneditor'));
+  var editor = new JSONEditor(document.getElementById('jsoneditor'),options);
 
   // Load a JSON document
   FileReaderJS.setupInput(document.getElementById('loadDocument'), {
